@@ -1,0 +1,35 @@
+body{
+    font-family: "Lato",sans-serif;
+    background-image: url("GAME_IMAGES/QUIIIZZZ.png");
+    background-size: cover;
+    display: flex;
+    background-position-x: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.buttonBox {
+    background-color: #ffa502;
+    border-radius: 15px;
+    border:0;
+    text-decoration: none;
+    outline: none;
+    padding: 15px 10px;
+    margin-top: 57.5%;
+    margin-left: 11%;
+    display: block;
+    width: 15%;
+    height: 30%;
+    justify-content: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+body a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}

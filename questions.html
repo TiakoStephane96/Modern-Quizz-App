@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/ico" size="20x20" href="GAME_IMAGES/17973869 [Converti] (3).ico">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QUIIIZZZ</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body id="play">
+        
+        <div class="box" id="questionScreen">
+            <div class="title">
+                QUIIIZZZ
+            </div>
+
+            <div class="header">
+                <div id="scoreBox">Score: <span id="score">00</span></div>
+                <div id="timeBox">Temps: <span id="timer"></span></div>
+            </div>
+
+            <div id="questionBox">
+            </div>
+
+            <div class="optionBox">
+                <button id="op1">
+                <button id="op2">
+                <button id="op3">
+                <button id="op4">
+            </div>
+
+            <div id="footer">
+                <button id="footerButton" onclick="showNext()">Next</button>
+            </div>
+        </div>
+
+        <div class="box" id="resultsScreen" style="display: none;">
+            <br/>
+            <div id="rrr">
+                <img id="dhg">
+            </div>
+            <br/>
+                <div id="appreciation" align="center"><u><b>RESULTAT DE LA PARTIE</b></u></div>
+                <br/>
+                <div id="resultat" align="center"></div>
+            <br/>
+            <div class="buttonBox">
+                <a href="register.html">Aimeriez-vous vous enregistrer?</a>
+            </div>
+            <br/><br/>
+            <div align="center"><label>REJOUER?</label></div>
+            <div class="playAgain" align="center"><a href="questions.html"><img src="play-btn-fill.svg" alt="" class="my-3 mx-3" height="40" width="40"></img></a></div>
+        </div>
+
+        <script src="QUIZ.js"></script>
+
+    </body>
+</html>
